@@ -5,19 +5,52 @@
   <title>Page Not Found</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    
-    body {
-      background: #0f0f0f;
-      color: white;
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-      padding-top: 10%;
-    }
+
+:root {
+    --primary: #7c3aed;
+    --primary-dark: #5b21b6;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: rgba(255,255,255,0.7);
+    --bg: #ffffff;
+    --card: rgba(255,255,255,0.7);
+    --shadow: 0 20px 60px rgba(124, 58, 237, 0.10);
+    --radius: 28px;
+  }
+
+  * {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--muted);
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--primary);
+  }
   </style>
 </head>
 <body>
   <h1>404</h1>
-  <p>Oops! This page doesn’t exist.</p>
+  <p>Oops! This page doesn't exist.</p>
   <a href="/">Go home</a>
 </body>
 </html>
