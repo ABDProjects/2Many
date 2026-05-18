@@ -1,0 +1,29 @@
+:root {
+    --primary: #7c3aed;
+    --primary-dark: #5b21b6;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: rgba(255,255,255,0.7);
+    --bg: #ffffff;
+    --card: rgba(255,255,255,0.7);
+    --shadow: 0 20px 60px rgba(124, 58, 237, 0.10);
+    --radius: 28px;
+  }
+
+  * {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
