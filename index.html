@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>2Many</title>
-  </head>
-  <body>
-    <main>
-        <h1>This website isnt set up yet!</h1>  
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2Many</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="src/Images/Logos/2Many.png" type="image/x-icon">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">
+        <h2>2Many</h2>
+      </div>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-badge">One business. Unlimited tools.</div>
+      <h1>Digital tools that do more for your everyday.</h1>
+      <p>
+        2Many creates fast and beautiful software including
+        browsers, password managers, and productivity apps.
+      </p>
+      <a href="#products" class="primary-button">Explore Products</a>
+    </div>
+  </section>
+
+  <section id="products" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Products</h2>
+        <p>The growing 2Many ecosystem.</p>
+      </div>
+
+      <div id="productGrid" class="product-grid"></div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container about-card">
+      <h2>Built for simplicity</h2>
+      <p>
+        Every 2Many product is designed with a minimalist interface, strong
+        performance, and a focus on your preferences.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <span>2026 | 2Many. | <a href="/policy/">Read our policy.</a></span>
+      <span>Made with simplicity.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
