@@ -15,7 +15,7 @@ const products = [
     },
     {
       name: '2ManyAIs',
-      description: 'Use various AI Models for free, fast, and personalised for you.',
+      description: 'Use various AI Models for free and fast.',
       icon: 'src/Images/Logos/2ManyAIs.png',
       available: false,
       link: '#'
