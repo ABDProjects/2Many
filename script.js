@@ -8,7 +8,7 @@ const products = [
     },
     {
       name: '2ManyBrowsers',
-      description: 'A minimalist, high-performance web browser built for speed and focus.',
+      description: 'A minimalist, high performance browser built for speed.',
       icon: 'src/Images/Logos/2ManyBrowsers.png',
       available: false,
       link: '#'
