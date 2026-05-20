@@ -183,6 +183,7 @@
   
     opacity: 0;
     transform: translateY(40px);
+    height: 250px;
   }
   
   .product-card.visible {
