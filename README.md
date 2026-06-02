@@ -1,5 +1,3 @@
-# 2Many
-
 <p align="center">
   <img src="https://2many.org/src/Images/Logos/2Many-Full.png" alt="2Many Logo" width="120">
 </p>
