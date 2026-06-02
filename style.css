@@ -77,14 +77,6 @@
     font-weight: 800;
   }
 
-  .2manylogo {
-      text-decoration: none;
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      font-weight: 800;
-  }
-
   nav {
     display: flex;
     gap: 24px;
