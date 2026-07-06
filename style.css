@@ -221,9 +221,6 @@
     width: 30px;
     height: 30px;
     object-fit: contain;
-  }
-
-  .product-icon img #rounded {
     border-radius: 100%;
   }
   
