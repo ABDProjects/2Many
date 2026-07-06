@@ -7,16 +7,16 @@ const products = [
       link: '#'
     },
     {
-      name: '2ManyBrowsers',
-      description: 'A minimalist, high performance browser built for speed.',
-      icon: 'src/Images/Logos/2ManyBrowsers.png',
+      name: 'CalTrack',
+      description: 'Track smarter. Transform faster. CalTrack does the math for you.',
+      icon: 'src/Images/Logos/CalTrack.png',
       available: false,
       link: '#'
     },
     {
-      name: '2ManyAIs',
-      description: 'Use various AI Models for free, fast, and personalised for you.',
-      icon: 'src/Images/Logos/2ManyAIs.png',
+      name: '2ManyBrowsers',
+      description: 'A minimalist, high performance browser built for speed.',
+      icon: 'src/Images/Logos/2ManyBrowsers.png',
       available: false,
       link: '#'
     }
